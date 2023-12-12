@@ -10,10 +10,10 @@
         <h1>Contact Generator</h1>
         <label for="id">Canteen ID:</label>
         <input type="text" id="idEl" name="ID">
-        <button onclick="main()">Generate Auto-Dial Contacts </button>
-        <button>Download Clock in Contact</button>
-        <button>Download Clock out Contact</button>
-        <button>Download Start Lunch Contact</button>
-        <button>Download End Lunch Contact</button>
+        <button onclick="main()" >Generate Auto-Dial Contacts </button>
+        <button onclick="dl_ci()" style="display : none" name="toggle">Download Clock in Contact</button>
+        <button onclick="dl_co()" style="display : none" name="toggle">Download Clock out Contact</button>
+        <button onclick="dl_sl()" style="display : none" name="toggle">Download Start Lunch Contact</button>
+        <button onclick="dl_el()" style="display : none" name="toggle">Download End Lunch Contact</button>
     </body>
 </html>
