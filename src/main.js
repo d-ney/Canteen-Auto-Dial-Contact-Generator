@@ -1,5 +1,5 @@
 
-function generate() {
+function main() {
     var id = document.getElementById("idEl").value;
     console.log("idEl: " + id);
 
